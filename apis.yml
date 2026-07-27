@@ -1,4 +1,16 @@
 aid: gridbank
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gridbank.png
 name: GridBank
 description: 'GridBank is a company surfaced as a portfolio company of version-one-ventures and added
   to the API Evangelist network as a stub for enrichment. Sector: energy. This profile is a lead awaiting
@@ -12,13 +24,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Energy
+- Energy Storage
+- Grid Infrastructure
+- Renewable Energy
+- Version One Ventures
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: 'No verifiable public API surface. Version One Ventures portfolio links GridBank
+    to gridbank.io, but that domain currently serves an unrelated user-generated-content
+    video marketplace, not the energy-storage/grid-infrastructure company. Candidate
+    energy domains (gridbank.energy, gridbank.co, gridbank.ai, getgridbank.com) do
+    not resolve. No developer portal, docs, OpenAPI, or well-known endpoints found.'
